@@ -1,120 +1,118 @@
+@charset "UTF-8";
 /* header{
     height: 250px;
 } */
-
+/* Variables */
 /* HEADER CSS */
 .header {
-    background-color: black
+  background-color: black;
 }
 
+/*
 nav ul li {
     list-style: none;
     display: inline;
     justify-content: right;
-}
-
+} */
 /* MAIN: */
-main{
-    background-color: white;
-}
-#quienesomos{
-    font-family: "roboto";
-    color: blueviolet;
+main {
+  background-color: white;
 }
 
-h4{
-    color: blueviolet;
-    text-align: center;
+#quienesomos {
+  font-family: "roboto";
+  color: blueviolet;
+}
 
+h4 {
+  color: blueviolet;
+  text-align: center;
 }
 
 /* FOOTER */
-
-footer{
-    background-color: black;
+footer {
+  background-color: black;
 }
 
-h6{
-    color: white
+h6 {
+  color: white;
 }
+
 .redes {
-    color: white
+  color: white;
 }
 
 /* FUENTE: */
-    @font-face{
-        font-family: "Roboto";
-        src: url(../fonts/RobotoMono-Regular.ttf)
-    }
-
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/RobotoMono-Regular.ttf);
+}
 /* CSS Productos */
-    .productos {
-        width: 300px;
-        padding: 20px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        text-align: center;
-        font-family: "Roboto";
-        cursor: pointer;
-    }
-
-
-    .productos img {
-        width: 200px;
-        height: 200px;
-        margin-bottom: 10px;
-    }
-
+.productos {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  font-family: "Roboto";
+  cursor: pointer;
+}
+.productos img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+}
 .productos h3 {
-        margin-bottom: 10px;
-    }
-
+  margin-bottom: 10px;
+}
 .productos p {
-        margin-bottom: 5px;
-    }
+  margin-bottom: 5px;
+}
 
 .carritoP {
-    display: grid;
-    grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 300px 300px 300px;
-    row-gap: 50px;
-    column-gap: 50px;
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 300px 300px 300px;
+  row-gap: 50px;
+  column-gap: 50px;
 }
 
+/*contacto*/
 .ayuda {
-    display: grid;
-    grid-template-columns: 500px 500px;
-    grid-template-rows: 150px 300px;
-    row-gap: 250px;
-    column-gap: 50px;
-}
-
-.navbar .nav-link  {
-    color: white
-}
-.navbar-nav .nav-link.active {
-    color: white;
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: 150px 300px;
+  row-gap: 250px;
+  column-gap: 50px;
 }
 
 .mapa {
-    display: grid;
+  display: grid;
 }
 
+/* menu */
+.navbar .nav-link {
+  color: white;
+}
 
-    /* Diseño responsive Movil */
-    @media (max-width: 768px) {
-        .carritoP { 
-            grid-template-columns: 300px;
-            grid-auto-rows: 300px;
-            row-gap: 50px;
-            column-gap: 50px;
-        }
+.navbar-nav .nav-link.active {
+  color: white;
+}
 
-        .ayuda{
-        grid-template-columns: 350px;
-        grid-template-columns: 350px;
-        row-gap: 50px;
-        column-gap: 50px;
-        }
-    }
+/* Diseño responsive Movil */
+@media (max-width: 768px) {
+  .carritoP {
+    grid-template-columns: 300px;
+    grid-auto-rows: 300px;
+    row-gap: 50px;
+    column-gap: 50px;
+  }
+  .ayuda {
+    grid-template-columns: 350px;
+    grid-template-columns: 350px;
+    row-gap: 50px;
+    column-gap: 50px;
+  }
+}
 
+/*# sourceMappingURL=estilos.css.map */

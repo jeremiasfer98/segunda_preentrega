@@ -1,0 +1,16 @@
+    /* Diseño responsive Movil */
+    @media (max-width: 768px) {
+        .carritoP { 
+            grid-template-columns: 300px;
+            grid-auto-rows: 300px;
+            row-gap: 50px;
+            column-gap: 50px;
+        }
+
+        .ayuda{
+        grid-template-columns: 350px;
+        grid-template-columns: 350px;
+        row-gap: 50px;
+        column-gap: 50px;
+        }
+    }
