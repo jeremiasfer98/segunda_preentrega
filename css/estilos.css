@@ -42,6 +42,10 @@ h6 {
   color: white;
 }
 
+.piedepagina {
+  list-style-type: none;
+}
+
 /* FUENTE: */
 @font-face {
   font-family: "Roboto";
