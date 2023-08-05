@@ -1,8 +1,9 @@
     /* Diseño responsive Movil */
     @media (max-width: 768px) {
         .carritoP { 
+            display: grid;
             grid-template-columns: 300px;
-            grid-auto-rows: 300px;
+            grid-template-rows: 300px;
             row-gap: 50px;
             column-gap: 50px;
         }
@@ -10,7 +11,28 @@
         .ayuda{
         grid-template-columns: 350px;
         grid-template-columns: 350px;
-        row-gap: 50px;
         column-gap: 50px;
+        row-gap: 200px;
+        }
+
+        .redes{
+            display: grid;
+            grid-template-columns: 150px 20px 20px 20px 20px;
+            column-gap: 10px;
+        img {
+            height: 25px;
+            width: 25px;
+        }
+        }
+        .carritoPr { 
+            display: grid;
+            grid-template-columns: 300px;
+            grid-template-rows: 300px;
+            row-gap: 70px;
+            column-gap: 50px;
+        }
+        .video iframe {
+            height: 100%;
+            width: 350px;
         }
     }

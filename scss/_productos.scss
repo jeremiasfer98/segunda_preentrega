@@ -1,5 +1,6 @@
 /* CSS Productos */
 .productos {
+    height: 340px;
     width: 300px;
     padding: 20px;
     border: 1px solid #ccc;
@@ -11,12 +12,26 @@
         width: 200px;
         height: 200px;
         margin-bottom: 10px;
+        transition: 1s;
+    }
+    img:hover {
+        transform: scale(1.2);
     }
     h3 {
         margin-bottom: 10px;
     }
     p {
         margin-bottom: 5px;
+        color: black;
+    }
+    button {
+        background:linear-gradient(to right, purple, blue);
+        color: white;
+        border:none;
+        border-radius: 5px
+    }
+    button:hover {
+        background:linear-gradient(to right, rgb(105, 0, 105), rgb(0, 0, 91));
     }
 } 
 
@@ -27,3 +42,11 @@ grid-template-rows: 300px 300px 300px;
 row-gap: 50px;
 column-gap: 50px;
 }
+
+.carritoPr {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 150px;
+    row-gap: 50px;
+    column-gap: 50px;
+    }

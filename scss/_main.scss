@@ -2,13 +2,34 @@
 main{
     background-color: white;
 }
-#quienesomos{
-    font-family: "roboto";
-    color: blueviolet;
+
+.somos {
+    h1 {
+        color:black
+    }
+    p {
+        color: blueviolet;
+    }
+} 
+    
+
+h1{
+    color: black;
+    text-align: center;
 }
 
-h4{
-    color: blueviolet;
-    text-align: center;
+.ciudadela {
+    display: flex;
+    align-items: center;
+    p {
+        color: blueviolet
+    }
+}
 
+.tachado {
+    text-decoration-line: line-through;
+}
+
+.pagos {
+    width: 100%;
 }
