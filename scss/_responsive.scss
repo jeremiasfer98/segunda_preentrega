@@ -6,6 +6,7 @@
             grid-template-rows: 300px;
             row-gap: 50px;
             column-gap: 50px;
+            justify-content: center;
         }
 
         .ayuda{
@@ -13,6 +14,14 @@
         grid-template-columns: 350px;
         column-gap: 50px;
         row-gap: 200px;
+        }
+        .mapa {
+            justify-content: center;
+            margin-top: 30px;
+            h2 {
+                display: flex;
+                justify-content: center;
+            }
         }
 
         .redes{
@@ -30,9 +39,26 @@
             grid-template-rows: 300px;
             row-gap: 70px;
             column-gap: 50px;
+            justify-content: center;
         }
-        .video iframe {
-            height: 100%;
-            width: 350px;
+        .video {
+            height: 300px;
+            width: 100%;
+            margin-top: 6px;
         }
-    }
+        .pagos {
+            margin-top: 20px;
+        }
+
+        .footer1 {
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        .ciudadela {
+            display: grid;
+        img {
+            width: 100%;
+        }
+        }
+        }

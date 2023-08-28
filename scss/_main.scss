@@ -4,11 +4,14 @@ main{
 }
 
 .somos {
+    padding: 20px;
+    border: 2px solid #000000;
+    margin: 15px;
     h1 {
         color:black
     }
     p {
-        color: blueviolet;
+        color: rgb(74, 15, 130);
     }
 } 
     
@@ -16,13 +19,19 @@ main{
 h1{
     color: black;
     text-align: center;
+    margin: 2px;
+    padding: 3px;
 }
 
 .ciudadela {
     display: flex;
     align-items: center;
+    padding: 20px;
     p {
-        color: blueviolet
+        color: rgb(74, 15, 130);
+        padding: 20px;
+        border: 2px solid black;
+        margin: 15px;
     }
 }
 
@@ -32,4 +41,19 @@ h1{
 
 .pagos {
     width: 100%;
+    margin-top: 30px;
+}
+.video {
+    width: 450px;
+    height: 300px;
+}
+
+.visual {
+    display: grid;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black
+    
 }
