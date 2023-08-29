@@ -201,6 +201,17 @@ nav ul li a:hover {
   font-size: 40px;
 }
 
+.btn-primary {
+  background-color: black;
+  --bs-btn-border-color: white;
+}
+
+.btn-primary:hover {
+  background-color: rgb(123, 13, 131);
+  --bs-btn-border-color: black;
+  --bs-btn-hover-border-color: black;
+}
+
 /* menu */
 .navbar .nav-link {
   color: white;
